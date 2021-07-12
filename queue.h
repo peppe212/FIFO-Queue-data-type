@@ -38,7 +38,7 @@ typedef struct queue_{
 }queue_t;
 
 
-//INTERFACE METHODS:
+//INTERFACE FUNCTIONS:
 queue_t *createQueue(int priority);
 void destroyQueue(queue_t *q);
 bool insertNode(queue_t *q, int info);
@@ -49,7 +49,7 @@ bool contains(queue_t *q, int info);
 int *toArray(queue_t *q);
 int getPriority(queue_t *q);
 
-//AUX METHODS:
+//AUX FUNCTIONS:
 node_t *createNode(int info); //for insertNode()
 void destroyNode(node_t *node);
 void displayQueue(queue_t *q);
