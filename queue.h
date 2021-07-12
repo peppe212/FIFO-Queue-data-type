@@ -2,8 +2,8 @@
 // Created by Giuseppe Muschetta on 12/07/21.
 //
 
-#ifndef MFQ_SCHEDULING_ALGO_QUEUE_H
-#define MFQ_SCHEDULING_ALGO_QUEUE_H
+#ifndef QUEUE_H
+#define QUEUE_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -56,4 +56,4 @@ void displayQueue(queue_t *q);
 void displayArray(int *array, int dim);
 
 
-#endif //MFQ_SCHEDULING_ALGO_QUEUE_H
+#endif //QUEUE_H
